@@ -16,3 +16,4 @@ class ProductPageLocators ():
     PRODUCT_NAME = (By.CSS_SELECTOR, ".col-sm-6 > h1")
     PRODUCT_NAME_IN_TOAST = (By.CSS_SELECTOR, ".alert-success > .alertinner > strong") # Here could be an issues
     PRODUCT_PRICE_IN_TOAST = (By.CSS_SELECTOR, ".alert-info > .alertinner > p > strong")
+    ADD_SUCCESS_MESSAGE = (By.CLASS_NAME, "alert-success")
