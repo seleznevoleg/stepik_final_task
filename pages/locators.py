@@ -17,3 +17,12 @@ class ProductPageLocators ():
     PRODUCT_NAME_IN_TOAST = (By.CSS_SELECTOR, ".alert-success > .alertinner > strong") # Here could be an issues
     PRODUCT_PRICE_IN_TOAST = (By.CSS_SELECTOR, ".alert-info > .alertinner > p > strong")
     ADD_SUCCESS_MESSAGE = (By.CLASS_NAME, "alert-success")
+
+class BasePageLocators ():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+    BASKET_BUTTON = (By.CSS_SELECTOR, ".basket-mini >  .btn-group > a")
+
+class BasketPageLocators ():
+    EMPTY_BASKET_LABEL = (By.CSS_SELECTOR, "[id=\"content_inner\"] > p")
+    BASKET_ITEM = (By.CLASS_NAME, "basket-items")
